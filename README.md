@@ -7,7 +7,7 @@
 ## Список проектов
 
 1. **[keydown-game](https://github.com/MaxDon26/meeting-projects/tree/main/keydown-game)** - Игра в виде кроссворда для ввода с клавиатуры.
-
+1. **[todo-list](https://github.com/MaxDon26/meeting-projects/tree/main/todoList)** - TodoList на базе mantine ui и firebase (базовый).
 
 
 ## Связь
