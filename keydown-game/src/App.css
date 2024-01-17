@@ -1,0 +1,84 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 3px gray;
+  width: 500px;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.word-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.word-letter {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #667;
+  text-transform: uppercase;
+}
+
+.word-letter.done {
+  border-color: rgb(0, 106, 0);
+  box-shadow: 0 0 2px rgb(0, 106, 0);
+}
+
+.info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btns button {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: inherit;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.btns button:hover {
+  background-color: rgb(73, 73, 182);
+  color: #fff;
+}
+.mistake {
+  display: inline-flex;
+  margin-right: 3px;
+}
+
+.mistake::after {
+  content: ",";
+}
+
+.mistake:last-child::after {
+  display: none;
+}
