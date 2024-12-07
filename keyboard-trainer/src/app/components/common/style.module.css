@@ -1,0 +1,21 @@
+.textArea {
+  width: 100%;
+  border: 1px solid #6f6f6f;
+  border-radius: 3px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.submit {
+  padding: 10px;
+  background-color: rgb(20, 109, 243);
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  align-self: flex-end;
+}
+.submit:hover {
+  transform: scale(1.05);
+}
